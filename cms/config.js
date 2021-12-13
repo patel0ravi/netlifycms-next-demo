@@ -5,7 +5,7 @@ module.exports = {
   // Backend configuration, in this case with git
   backend: {
     name: "git-gateway",
-    branch: "master",
+    branch: "main",
     squash_merges: true,
   },
 
@@ -23,7 +23,7 @@ module.exports = {
     {
       name: "Pages",
       label: "Page",
-      editor: { preview: false },
+      editor: { preview: true },
       label_singular: "Page",
       folder: "content/pages",
       create: true,
